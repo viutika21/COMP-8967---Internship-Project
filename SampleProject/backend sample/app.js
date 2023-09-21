@@ -9,7 +9,7 @@ app.use(express.json());
 //enable cors for all routes
 app.use(cors());
 
-mongoose.connect("mongodb://localhost:27017/viutika_rathod",{
+mongoose.connect("mongodb://127.0.0.1/viutika_rathod",{
   useNewUrlParser:true,
   useUnifiedTopology: true
 })
